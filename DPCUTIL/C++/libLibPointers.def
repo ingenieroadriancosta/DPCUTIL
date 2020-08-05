@@ -1,0 +1,78 @@
+; dlltool --base-file C:\Users\ADRIAN~1\AppData\Local\Temp/cca00880.base --output-exp LibPointers.exp --dllname LibPointers.dll --output-def libLibPointers.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup@12 --def C:\Users\ADRIAN~1\AppData\Local\Temp/cca00880.def --output-lib libLibPointers.a
+EXPORTS
+	Java_Pointers_BytePointers_GetValuePtr = Java_Pointers_BytePointers_GetValuePtr@16 @ 1
+	Java_Pointers_BytePointers_GetValuePtr@16 @ 2
+	Java_Pointers_BytePointers_SetValuePtr = Java_Pointers_BytePointers_SetValuePtr@20 @ 3
+	Java_Pointers_BytePointers_SetValuePtr@20 @ 4
+	Java_Pointers_CharPointers_GetValuePtr = Java_Pointers_CharPointers_GetValuePtr@16 @ 5
+	Java_Pointers_CharPointers_GetValuePtr@16 @ 6
+	Java_Pointers_CharPointers_SetValuePtr = Java_Pointers_CharPointers_SetValuePtr@20 @ 7
+	Java_Pointers_CharPointers_SetValuePtr@20 @ 8
+	Java_Pointers_DPCUTIL_DpcCloseDataN = Java_Pointers_DPCUTIL_DpcCloseDataN@16 @ 9
+	Java_Pointers_DPCUTIL_DpcCloseDataN@16 @ 10
+	Java_Pointers_DPCUTIL_DpcGetDpcVersionN = Java_Pointers_DPCUTIL_DpcGetDpcVersionN@16 @ 11
+	Java_Pointers_DPCUTIL_DpcGetDpcVersionN@16 @ 12
+	Java_Pointers_DPCUTIL_DpcGetRegN = Java_Pointers_DPCUTIL_DpcGetRegN@28 @ 13
+	Java_Pointers_DPCUTIL_DpcGetRegN@28 @ 14
+	Java_Pointers_DPCUTIL_DpcGetRegRepeatN = Java_Pointers_DPCUTIL_DpcGetRegRepeatN@32 @ 15
+	Java_Pointers_DPCUTIL_DpcGetRegRepeatN@32 @ 16
+	Java_Pointers_DPCUTIL_DpcGetRegSetN = Java_Pointers_DPCUTIL_DpcGetRegSetN@32 @ 17
+	Java_Pointers_DPCUTIL_DpcGetRegSetN@32 @ 18
+	Java_Pointers_DPCUTIL_DpcInitN = Java_Pointers_DPCUTIL_DpcInitN@12 @ 19
+	Java_Pointers_DPCUTIL_DpcInitN@12 @ 20
+	Java_Pointers_DPCUTIL_DpcOpenDataN = Java_Pointers_DPCUTIL_DpcOpenDataN@24 @ 21
+	Java_Pointers_DPCUTIL_DpcOpenDataN@24 @ 22
+	Java_Pointers_DPCUTIL_DpcPutRegN = Java_Pointers_DPCUTIL_DpcPutRegN@28 @ 23
+	Java_Pointers_DPCUTIL_DpcPutRegN@28 @ 24
+	Java_Pointers_DPCUTIL_DpcPutRegRepeatN = Java_Pointers_DPCUTIL_DpcPutRegRepeatN@32 @ 25
+	Java_Pointers_DPCUTIL_DpcPutRegRepeatN@32 @ 26
+	Java_Pointers_DPCUTIL_DpcPutRegSetN = Java_Pointers_DPCUTIL_DpcPutRegSetN@32 @ 27
+	Java_Pointers_DPCUTIL_DpcPutRegSetN@32 @ 28
+	Java_Pointers_DPCUTIL_DpcTermN = Java_Pointers_DPCUTIL_DpcTermN@8 @ 29
+	Java_Pointers_DPCUTIL_DpcTermN@8 @ 30
+	Java_Pointers_DPCUTIL_DvmgGetDevCountN = Java_Pointers_DPCUTIL_DvmgGetDevCountN@12 @ 31
+	Java_Pointers_DPCUTIL_DvmgGetDevCountN@12 @ 32
+	Java_Pointers_DPCUTIL_DvmgGetDevNameN = Java_Pointers_DPCUTIL_DvmgGetDevNameN@20 @ 33
+	Java_Pointers_DPCUTIL_DvmgGetDevNameN@20 @ 34
+	Java_Pointers_DPCUTIL_DvmgStartConfigureDevicesN = Java_Pointers_DPCUTIL_DvmgStartConfigureDevicesN@16 @ 35
+	Java_Pointers_DPCUTIL_DvmgStartConfigureDevicesN@16 @ 36
+	Java_Pointers_IntPointers_GetValuePtr = Java_Pointers_IntPointers_GetValuePtr@16 @ 37
+	Java_Pointers_IntPointers_GetValuePtr@16 @ 38
+	Java_Pointers_IntPointers_SetValuePtr = Java_Pointers_IntPointers_SetValuePtr@20 @ 39
+	Java_Pointers_IntPointers_SetValuePtr@20 @ 40
+	Java_Pointers_LAUNCH_DvmgGetDevCountN = Java_Pointers_LAUNCH_DvmgGetDevCountN@8 @ 41
+	Java_Pointers_LAUNCH_DvmgGetDevCountN@8 @ 42
+	Java_Pointers_LAUNCH_DvmgGetDevNameN = Java_Pointers_LAUNCH_DvmgGetDevNameN@16 @ 43
+	Java_Pointers_LAUNCH_DvmgGetDevNameN@16 @ 44
+	Java_Pointers_LAUNCH_DvmgStartConfigureDevicesN = Java_Pointers_LAUNCH_DvmgStartConfigureDevicesN@16 @ 45
+	Java_Pointers_LAUNCH_DvmgStartConfigureDevicesN@16 @ 46
+	Java_Pointers_LAUNCH_DvmgStartConfigureDevicesNClose = Java_Pointers_LAUNCH_DvmgStartConfigureDevicesNClose@8 @ 47
+	Java_Pointers_LAUNCH_DvmgStartConfigureDevicesNClose@8 @ 48
+	Java_Pointers_LAUNCH_FreePtrChar = Java_Pointers_LAUNCH_FreePtrChar@12 @ 49
+	Java_Pointers_LAUNCH_FreePtrChar@12 @ 50
+	Java_Pointers_LAUNCH_GetValuePtr = Java_Pointers_LAUNCH_GetValuePtr@16 @ 51
+	Java_Pointers_LAUNCH_GetValuePtr@16 @ 52
+	Java_Pointers_LAUNCH_MallocPtrChar = Java_Pointers_LAUNCH_MallocPtrChar@16 @ 53
+	Java_Pointers_LAUNCH_MallocPtrChar@16 @ 54
+	Java_Pointers_LAUNCH_SendComand = Java_Pointers_LAUNCH_SendComand@20 @ 55
+	Java_Pointers_LAUNCH_SendComand@20 @ 56
+	Java_Pointers_LAUNCH_SendDlgItemComand = Java_Pointers_LAUNCH_SendDlgItemComand@24 @ 57
+	Java_Pointers_LAUNCH_SendDlgItemComand@24 @ 58
+	Java_Pointers_LAUNCH_SetValuePtr = Java_Pointers_LAUNCH_SetValuePtr@20 @ 59
+	Java_Pointers_LAUNCH_SetValuePtr@20 @ 60
+	Java_Pointers_PTRFUNCT_FindWindowAN = Java_Pointers_PTRFUNCT_FindWindowAN@16 @ 61
+	Java_Pointers_PTRFUNCT_FindWindowAN@16 @ 62
+	Java_Pointers_PTRFUNCT_FreePtr = Java_Pointers_PTRFUNCT_FreePtr@12 @ 63
+	Java_Pointers_PTRFUNCT_FreePtr@12 @ 64
+	Java_Pointers_PTRFUNCT_GetActiveWindowN = Java_Pointers_PTRFUNCT_GetActiveWindowN@8 @ 65
+	Java_Pointers_PTRFUNCT_GetActiveWindowN@8 @ 66
+	Java_Pointers_PTRFUNCT_MallocPtr = Java_Pointers_PTRFUNCT_MallocPtr@12 @ 67
+	Java_Pointers_PTRFUNCT_MallocPtr@12 @ 68
+	Java_Pointers_PTRFUNCT_OpenFileDialogN = Java_Pointers_PTRFUNCT_OpenFileDialogN@20 @ 69
+	Java_Pointers_PTRFUNCT_OpenFileDialogN@20 @ 70
+	Java_Pointers_PTRFUNCT_PruebasN = Java_Pointers_PTRFUNCT_PruebasN@16 @ 71
+	Java_Pointers_PTRFUNCT_PruebasN@16 @ 72
+	Java_Pointers_PTRFUNCT_SetIconN = Java_Pointers_PTRFUNCT_SetIconN@16 @ 73
+	Java_Pointers_PTRFUNCT_SetIconN@16 @ 74
+	Java_Pointers_PTRFUNCT_ShowWindowN = Java_Pointers_PTRFUNCT_ShowWindowN@16 @ 75
+	Java_Pointers_PTRFUNCT_ShowWindowN@16 @ 76
